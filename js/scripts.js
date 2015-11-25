@@ -67,6 +67,21 @@ $(document).ready(function() {
 	        }
 	    }
 	});
+
+	//precentstagebar
+	$(function(){
+
+		$('.percentagebar div').fadeTo(0, 0).waypoint(function()
+		{
+			$(".percentagebar div").removeClass("percent80");
+			$(this).fadeTo(1000,1).addClass("percent10");
+		},
+		{
+			offset: '100%',
+			triggerOnce: true
+		});
+
+	});
 });
 
 /** Owl Carousel **/
