@@ -46,36 +46,36 @@ $(document).ready(function() {
 	    "circle_bg_fill_color": "rgba(255, 255, 255, 0.1)",
 	    "time": {
 	        "Days": {
-	            "text": "Days",
+	            "text": "Дней",
 	            "color": "#ffffff",
 	            "show": true
 	        },
 	        "Hours": {
-	            "text": "Hrs",
+	            "text": "Часов",
 	            "color": "#ffffff",
 	            "show": true
 	        },
 	        "Minutes": {
-	            "text": "Mins",
+	            "text": "Минут",
 	            "color": "#ffffff",
 	            "show": true
 	        },
 	        "Seconds": {
-	            "text": "Secs",
+	            "text": "Секунд",
 	            "color": "#ffffff",
 	            "show": true
 	        }
 	    }
 	});
 
-	//precentstagebar
+/** Percent Stage Bar **/
+
 	$(function(){
 
 		$('.percentagebar div').fadeTo(0, 0).waypoint(function()
 		{
 			$(".percentagebar div").removeClass("percent80");
 			$(this).fadeTo(1000,1).addClass("percent70");
-
 		},
 		{
 			offset: '100%',
@@ -84,12 +84,3 @@ $(document).ready(function() {
 
 	});
 });
-
-/** Owl Carousel **/
-
-$(window).load(function() {
-	"use strict";
-});
-
-
-
