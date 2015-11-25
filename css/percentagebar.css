@@ -16,12 +16,12 @@
 		background: #333;
 		margin: 0 !important;
 		list-style-type: none !important;
-		
+
 		-webkit-border-radius: 2px;
 		-moz-border-radius: 2px;
 		border-radius: 2px;
 	}
-	
+
 		.percentagebar ul li div
 		{
 			position: absolute;
@@ -30,14 +30,15 @@
 			font-size: 18px;
 			color: #FFF;
 		}
-	
+
 			.percentagebar ul li .expand
 			{
 				top: 0;
 				height: 20px;
 				text-align: right;
-				background: #1ABC9C;
-				
+				/*background: #1ABC9C;*/
+				background: #fff;
+
 				-webkit-border-radius: 2px;
 				-moz-border-radius: 2px;
 				border-radius: 2px;
@@ -49,7 +50,7 @@
 .percent0
 {
 	width: 0%;
-	
+
 	-webkit-animation: percent0 3s ease-out;
 	-moz-animation: percent0 3s ease-out;
 	-o-animation: percent0 3s ease-out;
@@ -62,7 +63,7 @@
 		0% { width: 0px; }
 		100% { width: 0%; }
 	}
-	
+
 	@-webkit-keyframes percent0
 	{
 		0% { width: 0px; }
@@ -78,7 +79,7 @@
 .percent10
 {
 	width: 10%;
-	
+
 	-webkit-animation: percent10 3s ease-out;
 	-moz-animation: percent10 3s ease-out;
 	-o-animation: percent10 3s ease-out;
@@ -91,7 +92,7 @@
 		0% { width: 0px; }
 		100% { width: 10%; }
 	}
-	
+
 	@-webkit-keyframes percent10
 	{
 		0% { width: 0px; }
@@ -103,11 +104,11 @@
 		0% { width: 0px; }
 		100% { width: 10%; }
 	}
-	
+
 .percent20
 {
 	width: 20%;
-	
+
 	-webkit-animation: percent20 3s ease-out;
 	-moz-animation: percent20 3s ease-out;
 	-o-animation: percent20 3s ease-out;
@@ -120,7 +121,7 @@
 		0% { width: 0px; }
 		100% { width: 20%; }
 	}
-	
+
 	@-webkit-keyframes percent20
 	{
 		0% { width: 0px; }
@@ -132,11 +133,11 @@
 		0% { width: 0px; }
 		100% { width: 20%; }
 	}
-	
+
 .percent30
 {
 	width: 30%;
-	
+
 	-webkit-animation: percent30 3s ease-out;
 	-moz-animation: percent30 3s ease-out;
 	-o-animation: percent30 3s ease-out;
@@ -149,7 +150,7 @@
 		0% { width: 0px; }
 		100% { width: 30%; }
 	}
-	
+
 	@-webkit-keyframes percent30
 	{
 		0% { width: 0px; }
@@ -161,11 +162,11 @@
 		0% { width: 0px; }
 		100% { width: 30%; }
 	}
-	
+
 .percent40
 {
 	width: 40%;
-	
+
 	-webkit-animation: percent40 3s ease-out;
 	-moz-animation: percent40 3s ease-out;
 	-o-animation: percent40 3s ease-out;
@@ -178,7 +179,7 @@
 		0% { width: 0px; }
 		100% { width: 40%; }
 	}
-	
+
 	@-webkit-keyframes percent40
 	{
 		0% { width: 0px; }
@@ -190,11 +191,11 @@
 		0% { width: 0px; }
 		100% { width: 40%; }
 	}
-	
+
 .percent50
 {
 	width: 50%;
-	
+
 	-webkit-animation: percent50 3s ease-out;
 	-moz-animation: percent50 3s ease-out;
 	-o-animation: percent50 3s ease-out;
@@ -207,7 +208,7 @@
 		0% { width: 0px; }
 		100% { width: 50%; }
 	}
-	
+
 	@-webkit-keyframes percent50
 	{
 		0% { width: 0px; }
@@ -219,11 +220,11 @@
 		0% { width: 0px; }
 		100% { width: 50%; }
 	}
-	
+
 .percent60
 {
 	width: 60%;
-	
+
 	-webkit-animation: percent60 3s ease-out;
 	-moz-animation: percent60 3s ease-out;
 	-o-animation: percent60 3s ease-out;
@@ -236,7 +237,7 @@
 		0% { width: 0px; }
 		100% { width: 60%; }
 	}
-	
+
 	@-webkit-keyframes percent60
 	{
 		0% { width: 0px; }
@@ -248,11 +249,11 @@
 		0% { width: 0px; }
 		100% { width: 60%; }
 	}
-	
+
 .percent70
 {
 	width: 70%;
-	
+
 	-webkit-animation: percent70 3s ease-out;
 	-moz-animation: percent70 3s ease-out;
 	-o-animation: percent70 3s ease-out;
@@ -265,7 +266,7 @@
 		0% { width: 0px; }
 		100% { width: 70%; }
 	}
-	
+
 	@-webkit-keyframes percent70
 	{
 		0% { width: 0px; }
@@ -277,11 +278,11 @@
 		0% { width: 0px; }
 		100% { width: 70%; }
 	}
-	
+
 .percent80
 {
 	width: 80%;
-	
+
 	-webkit-animation: percent80 3s ease-out;
 	-moz-animation: percent80 3s ease-out;
 	-o-animation: percent80 3s ease-out;
@@ -294,7 +295,7 @@
 		0% { width: 0px; }
 		100% { width: 80%; }
 	}
-	
+
 	@-webkit-keyframes percent80
 	{
 		0% { width: 0px; }
@@ -306,11 +307,11 @@
 		0% { width: 0px; }
 		100% { width: 80%; }
 	}
-	
+
 .percent90
 {
 	width: 90%;
-	
+
 	-webkit-animation: percent90 3s ease-out;
 	-moz-animation: percent90 3s ease-out;
 	-o-animation: percent90 3s ease-out;
@@ -323,7 +324,7 @@
 		0% { width: 0px; }
 		100% { width: 90%; }
 	}
-	
+
 	@-webkit-keyframes percent90
 	{
 		0% { width: 0px; }
@@ -340,7 +341,7 @@
 .percent100
 {
 	width: 100%;
-	
+
 	-webkit-animation: percent100 3s ease-out;
 	-moz-animation: percent100 3s ease-out;
 	-o-animation: percent100 3s ease-out;
@@ -353,7 +354,7 @@
 		0% { width: 0px; }
 		100% { width: 100%; }
 	}
-	
+
 	@-webkit-keyframes percent100
 	{
 		0% { width: 0px; }
