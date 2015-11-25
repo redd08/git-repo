@@ -37,22 +37,22 @@ $(document).ready(function() {
 	    "circle_bg_fill_color": "rgba(255, 255, 255, 0.1)",
 	    "time": {
 	        "Days": {
-	            "text": "Дней",
+	            "text": "Р”РЅРµР№",
 	            "color": "#ffffff",
 	            "show": true
 	        },
 	        "Hours": {
-	            "text": "Часов",
+	            "text": "Р§Р°СЃРѕРІ",
 	            "color": "#ffffff",
 	            "show": true
 	        },
 	        "Minutes": {
-	            "text": "Минут",
+	            "text": "РњРёРЅСѓС‚",
 	            "color": "#ffffff",
 	            "show": true
 	        },
 	        "Seconds": {
-	            "text": "Секунд",
+	            "text": "РЎРµРєСѓРЅРґ",
 	            "color": "#ffffff",
 	            "show": true
 	        }
