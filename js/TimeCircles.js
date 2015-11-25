@@ -1,13 +1,13 @@
 /**
  * Basic structure: TC_Class is the public class that is returned upon being called
- * 
+ *
  * So, if you do
  *      var tc = $(".timer").TimeCircles();
- *      
+ *
  * tc will contain an instance of the public TimeCircles class. It is important to
  * note that TimeCircles is not chained in the conventional way, check the
  * documentation for more info on how TimeCircles can be chained.
- * 
+ *
  * After being called/created, the public TimerCircles class will then- for each element
  * within it's collection, either fetch or create an instance of the private class.
  * Each function called upon the public class will be forwarded to each instance
@@ -62,7 +62,7 @@
             b: parseInt(result[3], 16)
         } : null;
     }
-    
+
     function isCanvasSupported() {
         var elem = document.createElement('canvas');
         return !!(elem.getContext && elem.getContext('2d'));
@@ -282,7 +282,7 @@
         this.container = $("<div>");
         this.container.addClass('time_circles');
         this.container.appendTo(this.element);
-        
+
         // Determine the needed width and height of TimeCircles
         var height = this.element.offsetHeight;
         var width = this.element.offsetWidth;
@@ -295,16 +295,16 @@
             height = width / this.data.drawn_units.length;
         else if (width === 0 && height > 0)
             width = height * this.data.drawn_units.length;
-        
+
         // Create our canvas and set it to the appropriate size
         var canvasElement = document.createElement('canvas');
         canvasElement.width = width;
         canvasElement.height = height;
-        
+
         // Add canvas elements
         this.data.attributes.canvas = $(canvasElement);
         this.data.attributes.canvas.appendTo(this.container);
-        
+
         // Check if the browser has browser support
         var canvasSupported = isCanvasSupported();
         // If the browser doesn't have browser support, check if explorer canvas is loaded
@@ -514,7 +514,7 @@
                     clear_radius * 2
                     );
         }
-        
+
         if (this.config.use_background) {
             this.data.attributes.context.beginPath();
             this.data.attributes.context.arc(x, y, this.data.attributes.radius, 0, 2 * Math.PI, false);
