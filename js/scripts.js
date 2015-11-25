@@ -75,6 +75,7 @@ $(document).ready(function() {
 		{
 			$(".percentagebar div").removeClass("percent80");
 			$(this).fadeTo(1000,1).addClass("percent30");
+
 		},
 		{
 			offset: '100%',
