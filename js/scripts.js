@@ -27,15 +27,6 @@ $(document).ready(function() {
 /** Countdown Timer **/
 
 $(document).ready(function() {
-	"use strict";
-	$("#countdown").countdown({
-		date: "1 january 2016 00:00:00", /** Enter new date here **/
-		format: "on"
-	},
-	function() {
-		// callback function
-	});
-
 	//code for the cerlces Countdouwn
 	$(".counter").TimeCircles({
 	    "direction": "Clockwise",
